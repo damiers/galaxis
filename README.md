@@ -1,3 +1,5 @@
 # Galaxis
 
-**Galaxis** `(pronounced /'gah-lah-xis/)`, also known as **"call axis"**, is a web-based 3D volume viewer.
+**Galaxis** `(pronounced /'gah-lah-xis/)`, is a Vue plugin based on WebGPU. Building for 3D biomedical image visualization.
+
+*This project is currently under active development.*

@@ -1,0 +1,33 @@
+{
+  "name": "galaxis",
+  "packageManager": "yarn@4.5.3",
+  "version": "2025.1.1",
+  "author": "Zijian Yi <arrowzeke@gmail.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "prepublishOnly": "yarn build"
+  },
+  "module": "./dist/galaxis.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/galaxis.mjs"
+    },
+    "./style.css": "./dist/galaxis.css"
+  },
+  "files": ["dist"],
+  "types": "src/types.d.ts",
+  "dependencies": {
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "wgpu-matrix": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@webgpu/types": "^0.1.52",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}

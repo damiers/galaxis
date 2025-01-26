@@ -1,0 +1,26 @@
+{
+  "name": "@galaxis/localapp",
+  "version": "2025.1.1",
+  "author": "Zijian Yi <arrowzeke@gmail.com>",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build"
+  },
+  "dependencies": {
+    "galaxis": "file:../../packages/galaxis",
+    "pinia": "^2.3.0",
+    "tiff": "^6.1.1",
+    "vue": "^3.5.13",
+    "vuetify": "^3.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@webgpu/types": "^0.1.52",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-tsc": "^2.2.0"
+  }
+}
